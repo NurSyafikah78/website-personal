@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>HTML Links</title>
+	</head>
+<body>
+
+<h1>5 HTML LINKS</h1>
+
+<!--internal link-->
+
+<a href="homepage.html">Homepage</a>
+
+<a href="mypersonal.html">About Me</a>
+
+<a href="experience.html">Experience</a>
+
+<a href="Portfolio.html">Portfolio</a>
+
+<a href="contact me.html">Contact Me</a>
+
+
+<!--external link-->
+<a href=""<>/a>
+
+<!--target attributtes;_blank,_self,_parent,_top
+<a href=""<>/a>
+
+
+
+
+
+
+
+
+</body>
+</html>
