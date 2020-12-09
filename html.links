@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>HTML Links</title>
+	</head>
+<body>
+
+<h1>5 HTML LINKS</h1>
+
+<!--internal link-->
+
+<a href=""></a>
+
+
+
+<!--external link-->
+<a href="></a>
+
+
+<!--target attributtes;_blank,_self,_parent,_top
+<a href="https://nursyafikah78.github.io/website-personal/homepage.html" target="_top">Homepage</a>
+<a href="https://nursyafikah78.github.io/website-personal/mypersonal.html" target="_top">About Me</a>
+<a href="https://nursyafikah78.github.io/website-personal/Portfolio.html" target="_top">Portfolio</a>
+<a href="https://nursyafikah78.github.io/website-personal/experience" target="_top">Experience</a>
+<a href="https://nursyafikah78.github.io/website-personal/contactme.html" target="_top">Contact Me</a>
+
+
+
+
+
+
+
+
+</body>
+</html>
