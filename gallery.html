@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gallery</title>
+
+	</head>
+<body>
+
+<style>
+	body{
+		background: url(34.jpg);
+		background-size: cover;
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		text-align: center;
+		font-size: 25px;
+		top: 30%;
+		bottom: 70%;
+		margin-left: 0px;
+		margin-top: 70px;
+
+
+	}
+
+	.gallery{
+		height: 80%;
+		width: 100%;
+		display: flex;
+		margin: 5% auto 0;
+		box-sizing: border-box;
+	}
+
+	.image-box{
+		margin: 0 1%;
+		flex-grow: 1;
+		flex-basis: 0;
+		transition: .5s;
+
+
+	}
+ 
+ 	.image-box img{
+ 		width: 75%;
+ 		height: 90%;
+ 		object-fit: cover;
+ 		transition: .5s;
+
+ 	}
+
+ 	.image-box:hover{
+ 		flex-basis: 50%;
+ 	}
+
+ 	.active{
+ 		flex-basis: 50%;
+ 	}
+
+ 	.gallery:hover .active{
+ 		flex-basis: 0;
+
+ 	}
+
+ 	.image-box:nth-child(1):hover{
+ 		flex-basis: 50%;
+
+ 	}
+</style>
+
+<h1>My Gallery</h1>
+<h3>"Moment au trésor"</h3>
+<div class="gallery">
+	<div class="image-box active">
+		<img src="gallery.5.jpg">
+	</div>
+	<div class="image-box">
+		<img src="gallery.8.jpg">
+	</div>
+	<div class="image-box">
+		<img src="gallery.7.jpg">
+	</div>
+	<div class="image-box">
+		<img src="gallery.6.jpg">
+	</div>
+	<div class="image-box">
+		<img src="gallery.12.jpg">
+	</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
